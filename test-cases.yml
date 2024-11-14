@@ -6,7 +6,6 @@
   prerequisites: |
     No data
   test-data: |
-    Тестовые данные
     Логин = stoitskiy.boriska@mail.ru  Пароль = Zasdf123
   steps:
     - Нажать кнопку Sign In
@@ -109,3 +108,34 @@
     - Нажать кнопку Create Battle
   expected-result: |
     Создана игра против другого пользователя
+
+- summary: |
+    Проверка изменения никнейма пользователя
+  requirement: |
+    Пользователь должен иметь возможность сменить никнейм
+  prerequisites: |
+    Пользователь авторизован
+  test-data: |
+    No data
+  steps:
+    - Нажать на свой никнейм
+    - Нажать кнопку Settings
+    - Стереть текущий никнейм из поля "Your name"
+    - Написать новый никнейм
+  expected-result: |
+    Никнейм сменился
+
+- summary: |
+    Проверка возможности выхода из игры
+  requirement: |
+    Пользователь должен иметь возможность выйти из игры
+  prerequisites: |
+    Пользователь авторизован, игра запущена
+  test-data: |
+    No data
+  steps:
+    - Нажать кнопку Other Actions
+    - Нажать кнопку Give Up
+    - Нажать кнопку I'll Be Back
+  expected-result: |
+    Пользователь вышел из игры
