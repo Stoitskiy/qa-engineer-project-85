@@ -4,7 +4,7 @@
   requirement: |
     При верном вводе логине и пароля пользователь должен войти в систему
   prerequisites: |
-    Открыта главная страница https://codebattle.hexlet.io/
+    No data
   test-data: |
     Тестовые данные
     Логин = stoitskiy.boriska@mail.ru  Пароль = Zasdf123
@@ -21,7 +21,7 @@
   requirement: |
     При авторизации через GitHub пользователь должен войти в систему
   prerequisites:
-    Открыта главная страница https://codebattle.hexlet.io/
+    No data
   test-data: |
     Логин = Stoitskiy; Пароль = Zasdf123
   steps:
@@ -37,7 +37,7 @@
   requirement: |
     При авторизации через Discord пользователь должен войти в систему
   prerequisites:
-    Открыта главная страница https://codebattle.hexlet.io/
+    No data
   test-data: |
     Логин = Stoitskiy; Пароль = Zasdf123
   steps:
@@ -53,7 +53,7 @@
   requirement: |
     При регистрации новый пользователь должен войти в систему
   prerequisites:
-    Открыта главная страница https://codebattle.hexlet.io/
+    No data
   test-data: |
     Логин = Stoitskiy; Пароль = Zasdf123; Никнейм = Stoitskiy; Email = stoitskiy.boriska@mail.ru;
   steps:
@@ -70,7 +70,7 @@
   requirement: |
     При входе на сайт пользователь должен иметь возможность попробовать сыграть без авторизации
   prerequisites:
-    Открыта главная страница https://codebattle.hexlet.io/
+    No data
   test-data: |
     No data
   steps:
@@ -83,7 +83,7 @@
   requirement: |
     Пользователь должен иметь возможность создать игру против бота
   prerequisites:
-    Открыта страница https://codebattle.hexlet.io/#lobby, выполнена авторизация
+    No data
   test-data: |
     Email = stoitskiy.boriska@mail.ru; Пароль = Zasdf123
   steps:
@@ -101,7 +101,7 @@
   requirement: |
     Пользователь должен иметь возможность создать игру против другого пользователя
   prerequisites:
-    Открыта страница https://codebattle.hexlet.io/#lobby, выполнена авторизация
+    No data
   test-data: |
     Email = stoitskiy.boriska@mail.ru; Пароль = Zasdf123
   steps:
